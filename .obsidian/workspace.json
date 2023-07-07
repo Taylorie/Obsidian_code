@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "131d7d8a5e383f0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "535a8320aadeac4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "995fee3216577994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30db8dfe89b1fd08",
+    "type": "split",
+    "children": [
+      {
+        "id": "154bc61ae2a13873",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f93e63ee689187b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "26db3e203c944ef0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "032780dc9244b8ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d269fe4f5875328",
+    "type": "split",
+    "children": [
+      {
+        "id": "e64ea98fe1818368",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4a4e95c41ecf97e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "732e9818ab2d29be",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11865d921b6ec3d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f75aeea3fcafdf39",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "995fee3216577994",
+  "lastOpenFiles": [
+    "黑马微服务/images/1687783487092-f3637c27-2ddc-4e72-bfa9-236a88c37e0f.png",
+    "黑马微服务/images/1687783222648-db3a87b2-cef4-4f3c-ac23-b7bc4a31b509.png",
+    "黑马微服务/images/1687702580235-966cd31e-2bfa-4766-a333-831d479e48c9.png",
+    "黑马微服务/images/1687702547313-5d088dcb-c41c-425b-803d-7eaaa097161c.png",
+    "黑马微服务/images/1687702511370-2c245521-7ad0-4625-9d35-76c6824fa36b.png",
+    "黑马微服务/images/1687701681862-8b21903a-eab0-48b9-96d7-149e7ce2aec9.png",
+    "黑马微服务/images/1687701660325-60f9011c-656c-4840-9338-4b3a5b2cfa9c.png",
+    "黑马微服务/images/1687700343295-84c9010b-df0e-43f3-a020-e81fc231a41a.png",
+    "黑马微服务/images/1687531207902-4b02c258-37d7-4199-b718-afec65aaa7af.png",
+    "黑马微服务/images/1687531121203-a7919f62-104a-44e5-a7e6-691ee88047f3.png",
+    "黑马微服务/images/1687530613994-cd832e01-25d3-43da-b19e-b37b203753b1.png",
+    "黑马微服务/黑马微服务.md",
+    "黑马微服务/images",
+    "黑马微服务"
+  ]
+}
