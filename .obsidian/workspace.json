@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8d269fe4f5875328",
@@ -129,12 +130,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,30 +144,30 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8eea65b4e3d64c07",
+  "active": "f75aeea3fcafdf39",
   "lastOpenFiles": [
-    "Java/黑马微服务/images/image-20230709154128874.png",
-    "Java/黑马微服务/images/image-20230709151453723-1688886898338-1-1688886900989-3-1688886901892-5-1688886903347-7.png",
-    "Java/黑马微服务/images/image-20230709151453723-1688886898338-1-1688886900989-3-1688886901892-5.png",
-    "Java/黑马微服务/images/image-20230709151453723-1688886898338-1-1688886900989-3.png",
-    "Java/黑马微服务/images/image-20230709151453723-1688886898338-1.png",
-    "Java/黑马微服务/images/image-20230709151453723.png",
-    "算法/剑指offer/剑指 offer 专项突破.md",
+    "Java/黑马微服务/Pasted image 20230709154321.png",
     "Java/黑马微服务/黑马微服务.md",
+    "Java/黑马微服务/Pasted image 20230709154309.png",
+    "Java/黑马微服务/images/image-20230709154235208-1688888561275-19.png",
+    "Java/黑马微服务/images/image-20230709154235208.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9-1688888508349-11-1688888509335-13-1688888509892-15-1688888510242-17.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9-1688888508349-11-1688888509335-13-1688888509892-15.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9-1688888508349-11-1688888509335-13.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9-1688888508349-11.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9.png",
+    "Java/黑马微服务/images/image-20230709154128874.png",
+    "算法/剑指offer/剑指 offer 专项突破.md",
     "images/image-20230707102313641.png.md",
     "images",
     "算法/剑指 offer 专项突破.md",
-    "算法/剑指offer/images/image-20230707102406904.png",
-    "算法/剑指offer/images/image-20230707102354555.png",
-    "算法/剑指offer/images/image-20230707102339008.png",
-    "算法/剑指offer/images/image-20230707102313641.png",
     "算法/剑指offer/images",
     "算法/剑指offer",
     "算法/新建文件夹",
-    "算法/images/image-20230707102406904.png",
     "算法/images",
     "剑指.md",
     "README.md",
