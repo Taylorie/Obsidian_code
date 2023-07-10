@@ -1301,3 +1301,94 @@ class DoubleList {
         return ((time.charAt(0) - '0') * 10 + (time.charAt(1) - '0')) * 60 + ((time.charAt(3) - '0') * 10 + (time.charAt(4) - '0'));
     }
 ```
+
+---
+
+## 36.后缀表达式
+
+后缀表达式符合先进后出原则，则可以采取栈结构处理，遇到数字则存入栈中，如果遇到运算符则去除最顶部的两个数字进行对应的运算
+
+```java
+    public int evalRPN(String[] tokens) {
+        if (tokens.length == 1) return Integer.parseInt(tokens[0]);
+        Deque<String> stack = new ArrayDeque<>();
+        int res = 0;
+        for (String token : tokens) {
+            switch (token) {
+                case "+":
+                    int a = operation(Integer.parseInt(stack.pop()), Integer.parseInt(stack.pop()), 1);
+                    stack.push(String.valueOf(a));
+                    res = a;
+                    break;
+                case "-":
+                    int b = operation(Integer.parseInt(stack.pop()), Integer.parseInt(stack.pop()), 2);
+                    stack.push(String.valueOf(b));
+                    res = b;
+                    break;
+                case "*":
+                    int c = operation(Integer.parseInt(stack.pop()), Integer.parseInt(stack.pop()), 3);
+                    stack.push(String.valueOf(c));
+                    res = c;
+                    break;
+                case "/":
+                    int d = operation(Integer.parseInt(stack.pop()), Integer.parseInt(stack.pop()), 4);
+                    stack.push(String.valueOf(d));
+                    res = d;
+                    break;
+                default:
+                    stack.push(token);
+            }
+        }
+        return res;
+    }
+
+    private int operation(int x, int y, int operation) {
+        switch (operation) {
+            case 1:
+                return x + y;
+            case 2:
+                return y - x;
+            case 3:
+                return x * y;
+            case 4:
+                return y / x;
+            default:
+                return 0;
+        }
+    }
+```
+
+---
+
+## 37.小行星碰撞
+
+碰撞的先决条件是，前面的数字是正数，紧邻着的下一个数字是负数，满足这个条件即需要判断碰撞后的情况
+
+我们可以先使用栈遍历存储数组中的元素，如果当前元素是负数，栈顶元素为正数，且 stack 不为空，则进行碰撞判断，如果栈为空则不需要判断直接存储即可
+
+进行碰撞判断后有一个情况，就是如果当前遍历的元素被保存在栈中，则应该继续进行碰撞判断，因为栈中第二个元素有为正数的可能，这里我们可以使用一个布尔值来进行判断，如果遍历的元素被存储在栈中，则应该继续判断
+
+```java
+    public int[] asteroidCollision(int[] asteroids) {
+        Deque<Integer> stack = new LinkedList<>();
+        for (int aster : asteroids) {
+            boolean alive = true;
+            while (alive && aster < 0 && !stack.isEmpty() && stack.peek() > 0) {
+                alive = stack.peek() < -aster;
+                if (stack.peek() <= -aster) stack.pop();
+            }
+            if (alive) stack.push(aster);
+        }
+        int size = stack.size();
+        int[] ans = new int[size];
+        for (int i = size - 1; i >= 0; i--) {
+            ans[i] = stack.pop();
+        }
+        return ans;
+    }
+```
+
+---
+
+## 38.
+
