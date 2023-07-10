@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d41dd02d67157246",
+        "id": "33582a3a56b531ca",
         "type": "tabs",
         "children": [
           {
-            "id": "8eea65b4e3d64c07",
+            "id": "4908d371f9490812",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8d269fe4f5875328",
@@ -129,12 +130,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,32 +144,40 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8eea65b4e3d64c07",
+  "active": "4908d371f9490812",
   "lastOpenFiles": [
+<<<<<<< HEAD
+=======
+    "Java/黑马微服务/images/Pasted image 20230709181143.png",
+    "Java/黑马微服务/images/Pasted image 20230709181134.png",
+    "Java/黑马微服务/images/Pasted image 20230709171430.png",
+    "Java/黑马微服务/images/Pasted image 20230709165121.png",
+    "Java/黑马微服务/images/Pasted image 20230709165051.png",
+    "README.md",
+    "Java/黑马微服务/Pasted image 20230709164954.png",
+    "Java/黑马微服务/黑马微服务.md",
+    "assets/image-20210720230027240.png.md",
+    "Java/黑马微服务/Pasted image 20230709154321.png",
+    "Java/黑马微服务/Pasted image 20230709154309.png",
+    "assets",
+    "Java/黑马微服务/images/image-20230709154235208-1688888561275-19.png",
+    "Java/黑马微服务/images/image-20230709154235208.png",
+    "Java/黑马微服务/images/image-20230709154128874-1688888506946-9-1688888508349-11-1688888509335-13-1688888509892-15-1688888510242-17.png",
+>>>>>>> 357fbd6b089eb8bdc4ab313b58e184f8b5c776cd
     "算法/剑指offer/剑指 offer 专项突破.md",
     "Java/黑马微服务/黑马微服务.md",
     "images/image-20230707102313641.png.md",
     "images",
     "算法/剑指 offer 专项突破.md",
-    "算法/剑指offer/images/image-20230707102406904.png",
-    "算法/剑指offer/images/image-20230707102354555.png",
-    "算法/剑指offer/images/image-20230707102339008.png",
-    "算法/剑指offer/images/image-20230707102313641.png",
     "算法/剑指offer/images",
     "算法/剑指offer",
     "算法/新建文件夹",
-    "算法/images/image-20230707102406904.png",
-    "算法/images/image-20230707102354555.png",
-    "算法/images/image-20230707102339008.png",
-    "算法/images/image-20230707102313641.png",
     "算法/images",
-    "算法/剑指 offer 专项突破.assets/image-20230707102313641.png",
     "剑指.md",
-    "README.md",
-    "黑马微服务/images/1687783487092-f3637c27-2ddc-4e72-bfa9-236a88c37e0f.png",
     "黑马微服务/黑马微服务.md",
     "黑马微服务/images",
     "黑马微服务"
