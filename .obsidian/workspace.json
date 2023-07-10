@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "33582a3a56b531ca",
+        "id": "09ea015e8ee6b05e",
         "type": "tabs",
         "children": [
           {
-            "id": "4908d371f9490812",
+            "id": "dd8bf5bb1d7f51bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "log/前端/样式布局.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "log/前端/样式布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "log/前端/样式布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "log/前端/样式布局.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,12 +139,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4908d371f9490812",
+  "active": "9f93e63ee689187b",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "log/前端/样式布局.md",
     "log/前端/前端日志.md",
     "Java/黑马微服务/黑马微服务.md",
     "log/前端/images/image-20230710145640392.png",
-    "log/前端/样式布局.md",
     "log/前端/images",
     "log/前端",
     "log",
