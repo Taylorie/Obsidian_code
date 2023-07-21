@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ca0766006d60736b",
@@ -149,6 +150,8 @@
   },
   "active": "3c7e7c76c3867565",
   "lastOpenFiles": [
+    "Java/黑马微服务/images/image-20230721215244263.png",
+    "Java/黑马微服务/images/image-20230721215143412.png",
     "Java/黑马微服务/images/Pasted image 20230709181134.png",
     "Java/黑马微服务/images/Pasted image 20230709181143.png",
     "Java/黑马微服务/黑马微服务.md",
@@ -159,8 +162,6 @@
     "Java/黑马微服务/images/image-20230716141108175.png",
     "Java/黑马微服务/images/image-20230716141059985.png",
     "Java/黑马微服务/images/image-20230716141047923.png",
-    "Java/黑马微服务/images/image-20230716141037525.png",
-    "Java/黑马微服务/images/image-20230716141030550.png",
     "未命名.md",
     "算法/剑指offer/剑指 offer 专项突破.md"
   ]
