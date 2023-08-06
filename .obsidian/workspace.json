@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37ad1fad72dc0672",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +158,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c7e7c76c3867565",
+  "active": "37ad1fad72dc0672",
   "lastOpenFiles": [
     "Java/黑马微服务/images/image-20230724211831278.png",
     "Java/黑马微服务/images/image-20230724211826411.png",
